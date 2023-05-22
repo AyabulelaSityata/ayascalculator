@@ -1,0 +1,52 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(138, 138, 111);
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    /* width: 100%; */
+    margin-inline: auto;
+    padding: 30px;
+    background-color: rgb(123, 196, 182);
+    border-radius: .8em;
+}
+
+#output {
+    /* max-width: 100%; */
+    height: 4em;
+    width: 100%;
+}
+
+.numbers, .operators, .deletes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 232px;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+}
+
+.row>equal:button {
+    color: black;
+    background-color: black;
+}
+
